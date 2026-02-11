@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 2 - Web Dev Mini-Quest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+       
+        body { 
+            background-color: #3e2723; 
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+
+        .ship-card { 
+            background-color: #fff3e0;
+            border: 8px solid #ff9800; 
+            border-radius: 50px; 
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8); 
+            transition: transform 0.3s ease;
+        }
+
+        
+        .btn-sunny {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            font-weight: bold;
+            transition: all 0.4s ease;
+        }
+        .btn-sunny:hover { 
+            background-color: #ffeb3b !important;
+            color: #000 !important;
+            transform: scale(1.2) rotate(5deg); 
+            box-shadow: 0 0 20px #ffeb3b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card ship-card p-4 text-center" style="width: 22rem;">
+        <div class="card-body">
+            <h2 class="card-title fw-bold text-uppercase" style="color: #e65100;">CSS Styling</h2>
+            
+            <span class="badge rounded-pill bg-dark mb-3 px-4 py-2 border border-warning">
+                Level 2: Styled
+            </span>
+
+            <p class="card-text text-muted italic">
+                This level shows basic CSS: background, card styling, and button hover.
+            </p>
+            
+            <hr class="my-4 border-2">
+
+            <div class="d-flex justify-content-center gap-2">
+                <a href="level1.html" class="btn btn-outline-dark px-3">Back</a>
+                <a href="level3.html" class="btn btn-sunny px-4 btn-hover-effect">Next Level</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
